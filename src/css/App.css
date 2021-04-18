@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 0 px;
+}
+
+/* .App-header { */
+  /* background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+  font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+.col{
+display:inline-block;
+justify-content: center;
+text-align: center;
+
+}
+.container{
+position: relative;
+}
+
+.col.exercise{
+  margin: 70px;
+  width: 120px;
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 20px 30px;
+  font-size: 20px;
+  color: white;
+  font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: grey;
+  opacity:0.7;
+}
+.col.exercise:hover {
+  background: rgb(71, 71, 71);
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.topic{
+  background-color: lightblue;
+}
+.App-body{
+  background-image: url(../photos/person-holding-barbell-841130.jpg);
+  background-size: cover;
+}
+
+.App-link {
+  color: #09d3ac;
+}
