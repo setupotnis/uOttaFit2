@@ -1,7 +1,7 @@
 {
   "name": "uottafit",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/setupotnis/uOttaFit.git"
+    "url": "git+https://github.com/setupotnis/uottafit2.git"
   },
-  "author": "",
+  "author": "Setu Potnis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/setupotnis/uOttaFit/issues"
+    "url": "https://github.com/setupotnis/uottafit2/issues"
   },
-  "homepage": "https://github.com/setupotnis/uOttaFit#readme",
+  "homepage": "https://github.com/setupotnis/uottafit2#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
